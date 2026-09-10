@@ -17,7 +17,8 @@ Changes affecting specific commands:
       exon (exon index and the number of exons), and exon_position (position
       within the exon and the exon length)
 
-    - Fix a segfault caused by incorrect handling of symbolic ALT alleles
+    - Fix a segfault caused by incorrect handling of symbolic ALT alleles.
+      Support symbolic alleles at multiallelic sites.
 
 * bcftools +fill-tags
 
